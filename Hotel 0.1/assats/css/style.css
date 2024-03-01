@@ -1,0 +1,87 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+body{
+    background-image: url(/assats/media/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+ 
+}
+img{
+    height: 40px;
+    width: 60px;
+    position: fixed;
+    margin-left: 30px;
+}
+ul{
+    display: inline-flex;
+    margin-left: 35%;
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+
+}
+ul li{
+padding: 10px;
+}
+ a:hover  {
+    color: rgb(96, 223, 255);
+}
+.btn1{
+    display: inline-flex;
+    margin-left: 27%;
+   background-color: skyblue;
+    border: 1px solid rgb(15, 15, 15);
+    height:26px;
+    width:76px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+
+}
+.btn1:hover {
+    background-color:darkolivegreen;
+}
+.contetnt{
+    margin-top: 15%;
+    margin-left: 35%;
+    color:yellowgreen;
+    font-size: large;
+    font-size: 25px;
+}
+.contetnt p{
+    color: skyblue;
+    font-size: large;
+    font-size: 30px;
+}
+.Search-box{
+    margin-left: 35%;
+}
+.Search-box input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 330px;
+   background-color: yellowgreen;
+}
+.act{
+    margin-left: -63px;
+    border-radius: 5px;
+    height: 20px;
+    width: 55px;
+    border: 1px solid ;
+    cursor: pointer;
+    background-color: skyblue;
+    color: rgb(10, 5, 5);
+    
+}
+.act:hover {
+    background-color: darkgreen;
+}
